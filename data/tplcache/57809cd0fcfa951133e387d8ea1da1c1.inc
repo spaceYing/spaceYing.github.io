@@ -1,1 +1,0 @@
-<li><a href="list.php?tid=[field:id /]" title="[field:typename /]"><s class="icon"></s><span>联系我们</span></a></li>

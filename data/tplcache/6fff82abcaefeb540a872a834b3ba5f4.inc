@@ -1,1 +1,0 @@
-<li>[field:typename /]</li>

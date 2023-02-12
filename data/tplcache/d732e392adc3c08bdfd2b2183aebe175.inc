@@ -1,1 +1,0 @@
-<li><img src="[field:picname/]" /></li>

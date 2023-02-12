@@ -1,1 +1,0 @@
-<span>[field:typename /]</span>[field:typenameen /]

@@ -1,1 +1,0 @@
-<li><a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a><span class="news_time">[field:pubdate function="MyDate('m/d',@me)"/]</span></li>

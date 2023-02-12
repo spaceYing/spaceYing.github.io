@@ -1,1 +1,0 @@
-<li><a class="example-image-link" href="[field:imgsrc/]" data-lightbox="example-set" target="_blank"><img class="example-image" src="[field:imgsrc/]" alt=""/></a></li>

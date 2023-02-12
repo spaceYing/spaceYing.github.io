@@ -1,1 +1,0 @@
-<li class="mod_01"><a href=""><img src="[field:pic/]"></a></li>

@@ -1,1 +1,0 @@
-<li><a href="[field:fujian/]" title="[field:title/] ">[field:title/]</a><span class="news_time"><a class="file-download" href="[field:fujian/]">点此下载</a></span></li>

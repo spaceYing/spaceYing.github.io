@@ -1,1 +1,0 @@
-<a href="list.php?tid=[field:id /]" class="job-send">简历提交</a>

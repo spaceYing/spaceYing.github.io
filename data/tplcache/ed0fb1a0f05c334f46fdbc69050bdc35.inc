@@ -1,1 +1,0 @@
-<a href="[field:typelink /]">[field:typename /]</a><span><a href="[field:typelink /]">更多&raquo;</a>

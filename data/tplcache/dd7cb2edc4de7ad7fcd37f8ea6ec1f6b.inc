@@ -1,1 +1,0 @@
-<p class="Hidden"><span class="SliderPicBorder FlRight"><img src="[field:imgsrc/]" alt=""/></span><span class="Clearer"></span></p>

@@ -1,1 +1,0 @@
-<li><a href="list.php?tid=[field:id/]" title="地图"><s class="icon"></s><span>联系</span></a></li>

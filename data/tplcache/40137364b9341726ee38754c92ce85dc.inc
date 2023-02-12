@@ -1,1 +1,0 @@
-<a href="list.php?tid=[field:id /]">在线询价</a>

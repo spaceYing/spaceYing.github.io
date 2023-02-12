@@ -1,1 +1,0 @@
-<a data-slide-index="[field:global name=autoindex/]" href="[field:imgsrc/]"><img src="[field:imgsrc/]" alt=""/></a>

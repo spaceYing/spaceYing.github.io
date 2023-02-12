@@ -1,1 +1,0 @@
-<li><a href="[field:arcurl/]" title="[field:title/]"><span class="time">2019-11-06</span>[field:title/]</a></li>

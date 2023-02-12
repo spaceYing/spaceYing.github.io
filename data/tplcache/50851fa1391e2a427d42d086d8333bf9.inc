@@ -1,1 +1,0 @@
-<a href='[field:typeurl/]' class="btn2">[field:typename/]</a>

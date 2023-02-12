@@ -1,1 +1,0 @@
-<a href="list.php?tid=[field:id/]" class="fr">more+</a>

@@ -1,1 +1,0 @@
-<li><a href="list.php?tid=[field:id /]"><s class="too-map icon"></s></a></li>

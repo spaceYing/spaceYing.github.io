@@ -1,1 +1,0 @@
-<li rel='[field:global name=autoindex/]'><img src="[field:imgsrc/]" alt=""/></li>

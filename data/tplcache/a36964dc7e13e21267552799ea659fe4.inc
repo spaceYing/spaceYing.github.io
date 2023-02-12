@@ -1,1 +1,0 @@
-<li><a href_="" style=" background:url([field:picname/]) no-repeat top center;"></a></li>

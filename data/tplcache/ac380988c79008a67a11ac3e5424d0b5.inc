@@ -1,1 +1,0 @@
-<li><a title="[field:title/]"><img src="[field:pic/]" alt="[field:title/]" width="1920" height="509"></a></li>

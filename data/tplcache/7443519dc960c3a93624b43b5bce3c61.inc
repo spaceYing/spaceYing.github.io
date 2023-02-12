@@ -1,1 +1,0 @@
-list.php?tid=[field:id/]
