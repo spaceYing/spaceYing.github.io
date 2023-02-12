@@ -1,0 +1,1 @@
+<li><a href="[field:typelink /]" class=""><span class="am-icon-user"></span><span class="am-navbar-label">[field:typename /]</span></a></li>

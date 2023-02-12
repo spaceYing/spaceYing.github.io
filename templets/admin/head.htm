@@ -1,0 +1,62 @@
+<div class="top"><div class="top01">{dede:global.cfg_top/}</div></div>
+
+
+<div class="header">
+  <div class="header01">
+    <div class="logo"><a href="/" title="{dede:global.cfg_webname/}"><img src="/static/picture/logo.png" alt="{dede:global.cfg_webname/}" /></a></div>
+    <div class="tel">
+      <!--<div class="title">热线电话</div>-->
+      <div class="num">{dede:global.cfg_tel/}</div>
+    </div>
+  </div>
+</div>
+
+<!--header end--> 
+
+<!--g_nav-->
+<div class="g_nav">
+  <div class="g_nav01">
+ 
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+	  
+	  
+        <td class="">
+<a class=""href="/" title="网站首页">网站首页<br /><!-- <span></span> --><div></div></a>
+                  </td>
+				  			  
+				{dede:channelartlist  typeid='1,2,3,4,5,6,7' currentstyle='now'}  
+				  <td  class="">
+<a class="{dede:field.currentstyle/}" href="{dede:field name='typeurl'/}" title="{dede:field name='typename'/}">{dede:field name='typename'/}<br /><!-- <span></span> --><div></div></a>
+                        <div class="nav_tan">
+						
+                {dede:channel type='son' noself='yes' }
+<li><a href='[field:typelink/]'>[field:typename/]</a></li>
+{/dede:channel}
+				
+				
+				          </div>  
+				</td>
+				
+				{/dede:channelartlist}
+				
+<!-- 				<li {dede:field name=typeid runphp="yes"}(@me=="")? @me=" class='current'":@me="";{/dede:field}>
+<a href="/">首页</a></li> -->
+
+					  
+				  </tr>
+    </table>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+  <!--<div class="g_nav02"></div>-->
+</div>

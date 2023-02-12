@@ -1,0 +1,1 @@
+<a href="view.php?aid=[field:id /]">在线询价</a>

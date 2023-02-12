@@ -1,0 +1,44 @@
+<?php
+$z[0]=Array("global","",108,132);
+$z[0][4]=array();
+$z[0][4]['name']="cfg_phone";
+$z[1]=Array("global","",161,185);
+$z[1][4]=array();
+$z[1][4]['name']="cfg_email";
+$z[2]=Array("global","",198,220);
+$z[2][4]=array();
+$z[2][4]['name']="cfg_add";
+$z[3]=Array("type","[field:typeurl/]",276,325);
+$z[3][4]=array();
+$z[3][4]['typeid']="33";
+$z[4]=Array("field","if(@me == \"\") @me = \"class='on'\";else @me = \"\";",435,534);
+$z[4][4]=array();
+$z[4][4]['name']="typeid";
+$z[4][4]['runphp']="yes";
+$z[5]=Array("channel","\r\n          <li><a href=\"[field:typeurl/]\">[field:typename/]</a></li>\r\n		  ",573,757);
+$z[5][4]=array();
+$z[5][4]['type']="top";
+$z[5][4]['currentstyle']="<li class='on'><a href='~typelink~'>~typename~</a></li>";
+$z[6]=Array("global","",875,901);
+$z[6][4]=array();
+$z[6][4]['name']="cfg_powerby";
+$z[7]=Array("global","",983,1007);
+$z[7][4]=array();
+$z[7][4]['name']="cfg_beian";
+$z[8]=Array("type","<a href=\"[field:typeurl/]\"> <i class=\"i2\"></i> [field:typename/] </a>",1281,1382);
+$z[8][4]=array();
+$z[8][4]['typeid']="1";
+$z[9]=Array("global","",1410,1434);
+$z[9][4]=array();
+$z[9][4]['name']="cfg_phone";
+$z[10]=Array("global","",1859,1880);
+$z[10][4]=array();
+$z[10][4]['name']="cfg_qq";
+$z[11]=Array("global","",2151,2173);
+$z[11][4]=array();
+$z[11][4]['name']="cfg_tel";
+$z[12]=Array("global","",2272,2296);
+$z[12][4]=array();
+$z[12][4]['name']="cfg_phone";
+
+?>

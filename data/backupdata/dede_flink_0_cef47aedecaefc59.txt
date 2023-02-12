@@ -1,0 +1,2 @@
+INSERT INTO `dede_flink` VALUES('10','1','http://www.dedemsos.com','dede模板','','','','1627696126','1','1');
+INSERT INTO `dede_flink` VALUES('11','1','http://www.dedemsos.com','织梦源码','','','','1627696133','1','1');

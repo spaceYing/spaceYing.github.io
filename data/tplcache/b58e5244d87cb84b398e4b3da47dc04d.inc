@@ -1,0 +1,1 @@
+<div class="in_join_title anim anim-1"><b>{dede:field name=typenameen/}</b><a href="{dede:field name=typeurl/}" title="{dede:field name=typename/}">{dede:field name=typename/}</a></div>

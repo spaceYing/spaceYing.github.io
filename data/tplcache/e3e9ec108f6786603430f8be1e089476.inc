@@ -1,0 +1,1 @@
+<li class="carousel-img"><a><img src="[field:pic/]" alt="[field:title/]"/></a></li>

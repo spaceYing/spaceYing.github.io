@@ -1,0 +1,80 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title> 
+<meta name="keywords" content="{dede:field name='keywords'/}" /> 
+<meta name="description" content="{dede:field name='description'  function='html2text(@me)'/}" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="/m/static/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/m/static/css/yunu.css">
+<script type="text/javascript" src="/m/static/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/m/static/js/yunu.js"></script>
+<script type="text/javascript" src="/m/static/js/jquery.limarquee.js"></script>
+<script type="text/javascript" src="/m/static/js/common.js"></script>
+ 
+</head>
+
+<body>
+<div class="mask"></div>
+{dede:include filename="head_m.htm"/}
+
+
+<div class="main clearfix">
+    <div class="itit clearfix">
+        <div class="w1200">
+       <h4>{dede:field.typename/}<span>{dede:field.fulanmu/}</span></h4>
+        </div>
+    </div>
+
+        <div class="news clearfix">
+        <div class="w1200">
+            <ul class="clearfix">
+			    {dede:list pagesize ='20'}
+                <li>
+                    <div>
+                        <a href="view.php?aid=[field:id/]" title="[field:title/]" class="ellipsis">[field:title/]</a>
+                        <p class="p1 fr">[field:pubdate function="MyDate('Y-m-d',@me)"/]</p>
+
+                    </div>
+                    <p class="p2">[field:description function="cn_substr(@me,120)"/]...</p>
+                </li>
+         {/dede:list}
+
+            </ul>
+        </div>
+    </div>
+    <div class="pagination-box text-center">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="pagination-inner">
+               <div>
+<style>
+#pagesize{ height:37px; line-height:37px; margin:0 0 20px; text-align:center;} 
+#pagesize li{ display:inline;} 
+#pagesize a{ text-decoration: none; color:#999; padding:4px 7px; border:solid 1px #ccc;}
+#pagesize a:hover{color:#000; border-color:#77aa15;}
+#pagesize a:active{color:#000;}
+#pagesize .disabled{color:#000;}
+#pagesize .thisclass a{color:#000; font-weight:bolder; border:solid 1px #77aa15; padding:4px 7px;}
+#pagesize .prev{ display:inline-block; *display:inline; zoom:1; vertical-align: middle;}
+#pagesize .next{ display:inline-block; *display:inline; zoom:1; vertical-align: middle;}
+</style>
+
+<ul id="pagesize">{dede:pagelist listitem="info,index,end,pre,next,pageno,option"listsize="10"/}</ul>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+{dede:include filename="footer_m.htm"/}
+
+
+
+</body>
+</html>

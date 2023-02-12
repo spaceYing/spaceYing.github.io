@@ -1,0 +1,46 @@
+<?php
+$z[0]=Array("field","",254,273);
+$z[0][4]=array();
+$z[0][4]['name']="title";
+$z[1]=Array("global","",274,300);
+$z[1][4]=array();
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("include","",753,788);
+$z[2][4]=array();
+$z[2][4]['filename']="head.htm";
+$z[3]=Array("channel","\r\n      <li>\r\n        <div class=\"header\"><a href=\"[field:typelink/]\" title=\"[field:typename/]\">[field:typename/]</a></div>\r\n      </li>\r\n		",1147,1446);
+$z[3][4]=array();
+$z[3][4]['type']="son";
+$z[3][4]['typeid']="1";
+$z[3][4]['currentstyle']="<li class='on'> <div class='header'><a href='~typelink~'>~typename~</a></div> </li>";
+$z[4]=Array("arclist","\r\n	  <li><a href=\"[field:arcurl/]\" title=\"[field:title/]\">[field:title/]</a></li>\r\n	  ",1636,1802);
+$z[4][4]=array();
+$z[4][4]['typeid']="9";
+$z[4][4]['row']="6";
+$z[4][4]['titlelen']="50";
+$z[4][4]['orderby']="pubdate";
+$z[5]=Array("type","<a href=\"[field:typelink /]\" title=\"[field:typename /]\">[field:typename /]</a>",1955,2068);
+$z[5][4]=array();
+$z[5][4]['typeid']="14";
+$z[6]=Array("global","",2209,2233);
+$z[6][4]=array();
+$z[6][4]['name']="cfg_email";
+$z[7]=Array("global","",2256,2280);
+$z[7][4]=array();
+$z[7][4]['name']="cfg_phone";
+$z[8]=Array("global","",2303,2325);
+$z[8][4]=array();
+$z[8][4]['name']="cfg_tel";
+$z[9]=Array("global","",2348,2370);
+$z[9][4]=array();
+$z[9][4]['name']="cfg_add";
+$z[10]=Array("channelartlist","<dl class=\"sitemap\">\r\n              <dt><a href=\"{dede:field name='typeurl'/}\" title=\"{dede:field name='typename'/}\">{dede:field name='typename'/}</a></dt>\r\n              <dd>{dede:channel type='son' noself='yes'}  <a href=\"[field:typelink/]\" title=\"[field:typename/]\">[field:typename/]</a>{/dede:channel} </dd>\r\n            </dl>",2791,3207);
+$z[10][4]=array();
+$z[10][4]['row']="7";
+$z[10][4]['typeid']="top";
+$z[10][4]['currentstyle']="active";
+$z[11]=Array("include","",3328,3365);
+$z[11][4]=array();
+$z[11][4]['filename']="footer.htm";
+
+?>

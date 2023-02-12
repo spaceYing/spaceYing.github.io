@@ -1,0 +1,1 @@
+<div class="col-lg-2 col-md-2 col-xs-4"><a title="[field:title/]"><img src="[field:litpic/]"/></a></div>

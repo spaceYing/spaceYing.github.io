@@ -1,0 +1,1 @@
+<a href="list.php?tid=[field:id /]"><span class="span2">地址</span></a>

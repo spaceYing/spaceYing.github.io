@@ -1,0 +1,195 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="{dede:field name='keywords'/}" /> 
+  <meta name="description" content="{dede:field name='description'  function='html2text(@me)'/}" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<link rel="stylesheet" type="text/css" href="/static/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/subpage.css" />
+	
+
+<script type="text/javascript" src="/static/js/jquery1.11.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/jquery.superslide.2.1.1.js"></script>
+	<script type="text/javascript" src="/static/js/form.js"></script>
+	<script type="text/javascript" src="/static/js/common.js"></script>
+	<script type="text/javascript" src="/static/js/zx.js"></script>
+	
+<!--<style>
+.theme_color{background-color:#1ec97f;}
+
+
+</style>-->
+<!--<script>
+function adapt(){
+var tableWidth = $(".product3 li div").width(); //表格宽度
+var img = new Image();
+img.src =$('#imgs').attr("src") ;
+var imgWidth = img.width; //图片实际宽度
+if(imgWidth>tableWidth){
+$('#imgs').attr("style","width:100%; height:auto");
+}else{
+$('#imgs').attr("style","width: 100%");
+}alert(imgWidth)
+} 
+</script>-->
+
+</head>
+	<!-- 头部 -->
+	{dede:include filename="head.htm"/}
+<!--g_nav end--> 
+
+
+	<!-- 头部 end -->
+
+	<!-- banner -->
+    <a href_="#">
+<div class="sub_banner" style=" background:url({dede:field.lanmuimg/}) no-repeat top center; position:relative;">
+    
+</div>
+</a>
+
+
+
+
+
+	<!-- banner -->
+	
+	<!-- 图标导航 -->
+	<div class="product sub_pro">
+	<!--left-->
+    <div class="sub_pro01">
+    <div class="sub_pro02">
+      <div class="product07"><b>{dede:field.typename/}</b></div>
+      <!--left nav-->
+      <div class="sidenav">
+        <ul>
+  {dede:channel     type ='son' currentstyle="<div class='allClass_1 cur'><a href='~typelink~'>~typename~</a> </div>"}                  
+	   <div  class="allClass_1" ><a href="[field:typelink/]">[field:typename/]</a></div>
+       {/dede:channel}
+	        
+        </ul>
+      </div>
+    </div>
+    
+    <!--侧边搜索-->
+    <div style=" background:#f4f4f4; border:#ebebeb solid 1px; border-top:none;">
+      <form action="/plus/search.php" method="post">
+        <div class="search02">
+          <input name="q" type="text" class="search03" placeholder="请输入..." style="width:90px;" />
+        </div>
+        <div class="search05" style="width:95px;">
+          <select class="jj"  style="width:95px;">
+		  {dede:channel   row='4'   type ='top'                   }
+            <option value="[field:typelink/]">[field:typename/]</option>
+	{/dede:channel}
+
+			</select>
+        </div>
+        <div class="search02">
+          <input name="" type="submit" class="search04" value="" style="width:35px; margin-left:0;" />
+        </div>
+        <div class="clear"></div>
+      </form>
+
+      
+    </div>
+    <script>
+    	$(function(){
+			$('.jslct dl dd').click(function(){
+				$(this).closest('form').attr('action',$(this).attr('val'));
+			});
+		})
+    </script> 
+    <!--侧边搜索 end-->
+    
+    <div class="sub_lx">
+      <div class="sub_lx01">
+        <div class="sub_lx03">联系我们</div>
+        <div class="sub_lx02">
+          <ul>
+		    <li>{dede:global.cfg_mc/}</li>
+            <li>地址 : {dede:global.cfg_add/}</li>
+            <li>邮编 ：{dede:global.cfg_yb/}</li>
+            <li>电话 : {dede:global.cfg_tel/}</li>
+            <li>邮箱 : {dede:global.cfg_email/}</li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+      <!--left end-->
+      <div class="product02">
+      <div class="content_com_title">
+						<h2>{dede:field.typename/}</h2>
+						<div class="bread">
+							当前位置： {dede:field name='position'/}					</div>
+					</div>
+					<div class="content">
+                    
+                       <ul class="product3">
+               					
+                            {dede:list pagesize ='10'}
+                                <li>
+                                    <div>
+                                       <a href="[field:arcurl/]" title="[field:title/]"><img   src="[field:picname/]" alt="[field:title/]"/></a>
+                                        
+                                    </div>
+                                    <p><a href="[field:arcurl/]" title="[field:title/]" class="pg-color">[field:title/]</a></p>
+                                </li>
+								
+								   {/dede:list}
+                              
+								
+								
+								
+                                <div class="clear"></div>  
+                             
+                             
+                                
+                        </ul>
+                        <div class='paging'> 
+						
+		<div>
+<style>
+#pagesize{ height:37px; line-height:37px; margin:0 0 20px; text-align:center;} 
+#pagesize li{ display:inline;} 
+#pagesize a{ text-decoration: none; color:#999; padding:4px 7px; border:solid 1px #ccc;}
+#pagesize a:hover{color:#000; border-color:#77aa15;}
+#pagesize a:active{color:#000;}
+#pagesize .disabled{color:#000;}
+#pagesize .thisclass a{color:#000; font-weight:bolder; border:solid 1px #77aa15; padding:4px 7px;}
+#pagesize .prev{ display:inline-block; *display:inline; zoom:1; vertical-align: middle;}
+#pagesize .next{ display:inline-block; *display:inline; zoom:1; vertical-align: middle;}
+</style>
+
+<ul id="pagesize">{dede:pagelist listitem="info,index,end,pre,next,pageno,option"listsize="10"/}</ul>
+</div>
+
+						
+						</div>					
+						
+						</div>
+      </div>
+      <div class="clear"></div>
+</div>
+
+
+
+	<!-- 图标导航 end-->
+	
+
+<!-- footer -->
+
+{dede:include filename="footer.htm"/}
+
+</body>
+</html>

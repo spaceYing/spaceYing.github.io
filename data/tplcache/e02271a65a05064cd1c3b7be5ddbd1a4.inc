@@ -1,0 +1,1 @@
+<p class="footer_menu_first"><a target="_blank" href="[field:typelink /]">[field:typename /]</a></p>

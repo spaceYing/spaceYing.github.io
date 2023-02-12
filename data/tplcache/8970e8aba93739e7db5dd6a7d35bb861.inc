@@ -1,0 +1,1 @@
+<li><span>[[field:pubdate function="MyDate('Y-m-d',@me)"/]]</span><a href="[field:fujian/]" title="[field:title/]">[field:title/]</a></li>

@@ -1,0 +1,25 @@
+<div class="nav" id="nav">
+    <ul>
+        <li><a href="/m"><span>网站首页</span></a></li>
+		
+    
+  {dede:channel type='top' row='' currentstyle="
+  <li><a href='list.php?tid=~id~' ~rel~><span>~typename~</span></a> </li>
+  "}
+  <li><a href="list.php?tid=[field:id/]" title="[field:typename/]">[field:typename/]</a></li>
+  {/dede:channel}
+
+    </ul>
+</div>
+<div class="header clearfix">
+    <div class="header_t clear clearfix">
+        <img src="/m/static/picture/m_logo.png" alt="{dede:global.cfg_webname/}">
+        <a class="menu" id="menu" href="javascript:;"><i class="fa fa-bars" aria-hidden="true"></i></a></div>
+    <div class="banner" id="banner">
+        <ul>
+		{dede:arclist typeid='12' row='3'}
+            <li><img src="[field:picname/]" alt="" title="" /></li>
+         {/dede:arclist}
+        </ul>
+    </div>
+</div>

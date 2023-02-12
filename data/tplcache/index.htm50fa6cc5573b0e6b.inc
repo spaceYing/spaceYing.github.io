@@ -1,0 +1,41 @@
+<?php
+$z[0]=Array("global","",254,280);
+$z[0][4]=array();
+$z[0][4]['name']="cfg_webname";
+$z[1]=Array("global","",324,354);
+$z[1][4]=array();
+$z[1][4]['name']="cfg_description";
+$z[2]=Array("global","",391,418);
+$z[2][4]=array();
+$z[2][4]['name']="cfg_keywords";
+$z[3]=Array("include","",1473,1508);
+$z[3][4]=array();
+$z[3][4]['filename']="head.htm";
+$z[4]=Array("myppt","<li><a href=\"[field:url/]\"><img src=\"[field:pic/]\" alt=\"[field:title/]\"/></a></li>",1682,1800);
+$z[4][4]=array();
+$z[4][4]['typeid']="2";
+$z[5]=Array("hotwords","",2291,2339);
+$z[5][4]=array();
+$z[5][4]['num']="8";
+$z[5][4]['subday']="365";
+$z[5][4]['maxlength']="16";
+$z[6]=Array("channelartlist","\r\n  <div class=\"floor_1_main\">\r\n    <div class=\"floor_1 w1200 clearfix\">\r\n      <div class=\"indexTit\" aos=\"fade-up\" aos-easing=\"ease\" aos-duration=\"700\">\r\n        <h3 class=\"tit\"><em>{dede:field name='typenameen'/}</em></h3>\r\n        <p class=\"subtit\"></p>\r\n      </div>\r\n      <!--产品分类开始-->\r\n      <div class=\"menu1 clearfix\" aos=\"fade-up\" aos-easing=\"ease\" aos-duration=\"700\" aos-delay=\"100\">\r\n	   {dede:channel type='son' noself='yes'}\r\n	  <a class=\"item\" href=\"[field:typelink/]\" title=\"[field:typename/]\">[field:typename/]</a> \r\n	    {/dede:channel}    \r\n	  </div>\r\n      <!--产品分类结束-->\r\n      <div class=\"product\">\r\n        <div class=\"left\" aos=\"fade-right\" aos-easing=\"ease\" aos-duration=\"700\">\r\n          <dl>\r\n		  {dede:arclist  typeid='6' row='2' titlelen='60' orderby='pubdate' }\r\n            <dd class=\"d[field:global runphp='yes' name=autoindex][/field:global]\">\r\n              <div class=\"box1\"><a href=\"[field:arcurl/]\" title=\"[field:title/]\">\r\n                <h3>[field:title/]</h3>\r\n                <p>[field:description function=\"cn_substr(@me,155)\"/]...</p>\r\n                <i class=\"icon\"></i><span class=\"icon\"></span></a></div>\r\n              <div class=\"box2\"><a href=\"[field:arcurl/]\" title=\"[field:title/]\"><img src=\"[field:litpic/]\" alt=\"[field:title/]\"></a></div>\r\n            </dd>\r\n  {/dede:arclist}\r\n\r\n          </dl>\r\n        </div>\r\n        <!--推荐内容开始-->\r\n        <div class=\"right\" aos=\"fade-left\" aos-easing=\"ease\" aos-duration=\"700\">\r\n          <div class=\"iproduct\" id=\"product\">\r\n            <div class=\"bd\">\r\n              <ul class=\"list clearfix\">\r\n			  {dede:arclist row='5' titlelen='60' orderby='pubdate'  typeid='6'  flag='h'}\r\n                <li class=\"item\"><a href=\"[field:arcurl/]\" title=\"[field:title/]\">\r\n                  <div class=\"img\"><img src=\"[field:litpic/]\" alt=\"[field:title/]\"/></div>\r\n                  <div class=\"txt\">\r\n                    <h3 class=\"tit\">[field:title/]</h3>\r\n                  </div>\r\n                  </a></li>\r\n  {/dede:arclist}\r\n\r\n              </ul>\r\n            </div>\r\n            <div class=\"hd\">\r\n              <ul class=\"iconList\">\r\n              </ul>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <!--推荐内容结束--> \r\n      </div>\r\n    </div>\r\n  </div> \r\n   ",3011,5382);
+$z[6][4]=array();
+$z[6][4]['typeid']="5,5";
+$z[7]=Array("global","",9727,9749);
+$z[7][4]=array();
+$z[7][4]['name']="cfg_tel";
+$z[8]=Array("channelartlist","  \r\n  <div class=\"floor_4_main\">\r\n    <div class=\"floor_4 w1200 clearfix\">\r\n      <div class=\"about\">\r\n        <div class=\"aImg\" aos=\"fade-right\" aos-easing=\"ease\" aos-duration=\"700\"><img src=\"/skin/images/about.jpg\" alt=\"{dede:field name='typename'/}\"/></div>\r\n        <div class=\"aCont\" aos=\"fade-left\" aos-easing=\"ease\" aos-duration=\"700\">\r\n          <div class=\"txt\">\r\n            <h3 class=\"aTit\">{dede:field name='typename'/}</h3>\r\n            <p class=\"aTxt\"> {dede:sql sql='Select content from dede_arctype where id=1'} \r\n        [field:content  function='cn_substr(html2text(@me),606)'/]\r\n        {/dede:sql}...</p>\r\n            <a class=\"kMore\" href=\"{dede:field name='typeurl'/}\">了解详情 >></a></div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div> \r\n    ",9949,10780);
+$z[8][4]=array();
+$z[8][4]['typeid']="1,1";
+$z[9]=Array("channelartlist","\r\n  <div class=\"floor_2_main\">\r\n    <div class=\"floor_2 w1200 clearfix\">\r\n      <div class=\"indexTit\" aos=\"fade-up\" aos-easing=\"ease\" aos-duration=\"700\">\r\n        <h3 class=\"tit\"><em>{dede:field name='typename'/}</em></h3>\r\n        <p class=\"subtit\"></p>\r\n      </div>\r\n      <div class=\"caseList\" id=\"icase\" aos=\"fade-up\" aos-easing=\"ease\" aos-duration=\"700\" aos-delay=\"100\">\r\n        <div class=\"bd\">\r\n          <ul class=\"list clearfix\">\r\n            {dede:arclist row='6' titlelen='60' orderby='pubdate'}\r\n		   <li class=\"item\"><a href=\"[field:arcurl/]\" title=\"[field:title/]\">\r\n              <div class=\"img\"><img src=\"[field:litpic/]\" alt=\"[field:title/]\"/></div>\r\n              <div class=\"txt\">\r\n                <h3 class=\"tit\">[field:title/]</h3>\r\n              </div>\r\n              </a></li>\r\n           {/dede:arclist}\r\n          </ul>\r\n        </div>\r\n        <div class=\"hd\"><span class=\"icon prev\"></span><span class=\"icon next\"></span></div>\r\n      </div>\r\n      <a class=\"cMore\" href=\"{dede:field name='typeurl'/}\" aos=\"fade-up\" aos-easing=\"ease\" aos-duration=\"700\" aos-delay=\"300\">查看更多</a></div>\r\n  </div> \r\n      ",10844,12042);
+$z[9][4]=array();
+$z[9][4]['typeid']="12,12";
+$z[10]=Array("channelartlist","\r\n  <div class=\"floor_5_main\">\r\n    <div class=\"floor_5 w1200 clearfix\">\r\n      <div class=\"indexTit\" aos=\"fade-up\" aos-easing=\"ease\" aos-duration=\"700\">\r\n        <h3 class=\"tit\"><em>{dede:field name='typename'/}</em></h3>\r\n        <p class=\"subtit\"></p>\r\n      </div>\r\n      <div class=\"cont clearfix\"> \r\n        <!--推荐内容开始-->\r\n        <div id=\"newsBox\" class=\"newsBox fl\" aos=\"fade-right\" aos-easing=\"ease\" aos-duration=\"700\">\r\n          <div class=\"bd\">\r\n            <ul>\r\n			{dede:arclist row='4' titlelen='50' orderby='pubdate' flag='h'}\r\n              <li><a href=\"[field:arcurl/]\" title=\"[field:title/]\"><img class=\"img\" src=\"[field:litpic/]\" alt=\"[field:title/]\"/>\r\n                <div class=\"txt\">\r\n                  <h3>[field:title/]</h3>\r\n                  <p>[field:description function=\"cn_substr(@me,155)\"/]...</p>\r\n                </div>\r\n                </a></li>\r\n           {/dede:arclist}\r\n\r\n            </ul>\r\n          </div>\r\n          <div class=\"hd\">\r\n            <ul>\r\n            </ul>\r\n          </div>\r\n        </div>\r\n        <!--推荐内容结束-->\r\n        <div class=\"textlist fr\" aos=\"fade-left\" aos-easing=\"ease\" aos-duration=\"700\">\r\n          <ul class=\"list\">\r\n		  {dede:arclist row='3' titlelen='50' orderby='pubdate' }\r\n            <li class=\"item\"><a href=\"[field:arcurl/]\" title=\"[field:title/]\">\r\n              <div class=\"time fl\"><b>29</b>2019-10</div>\r\n              <h3>[field:title/]</h3>\r\n              <p>[field:description /]...</p>\r\n              </a></li>\r\n            {/dede:arclist}\r\n\r\n          </ul>\r\n        </div>\r\n      </div>\r\n      <a href=\"{dede:field name='typeurl'/}\" class=\"more\" aos=\"fade-up\" aos-easing=\"ease\" aos-duration=\"700\">更多资讯 >></a> </div>\r\n  </div> \r\n    ",12106,13916);
+$z[10][4]=array();
+$z[10][4]['typeid']="9,9";
+$z[11]=Array("include","",13956,13993);
+$z[11][4]=array();
+$z[11][4]['filename']="footer.htm";
+
+?>

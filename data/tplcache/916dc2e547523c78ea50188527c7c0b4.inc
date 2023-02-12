@@ -1,0 +1,1 @@
+<li><a href="[field:url/]"><img src="[field:global.cfg_cmspath/][field:pic/]" alt="[field:title/]"></a></li>

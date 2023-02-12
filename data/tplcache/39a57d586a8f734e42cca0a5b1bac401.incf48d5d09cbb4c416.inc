@@ -1,0 +1,40 @@
+<?php
+$z[0]=Array("field","",203,231);
+$z[0][4]=array();
+$z[0][4]['name']="typeurl";
+$z[1]=Array("field","",240,269);
+$z[1][4]=array();
+$z[1][4]['name']="typename";
+$z[2]=Array("field","",271,300);
+$z[2][4]=array();
+$z[2][4]['name']="typename";
+$z[3]=Array("channel","\r\n          <li>\r\n            <div class=\"header\"><a href=\"[field:typelink/]\" title=\"[field:typename/]\">[field:typename/]</a></div>\r\n          </li>\r\n          ",382,595);
+$z[3][4]=array();
+$z[3][4]['type']="son";
+$z[3][4]['noself']="yes";
+$z[4]=Array("type","<a href=\"[field:typelink /]\" title=\"[field:typename /]\">[field:typename /]</a>",739,852);
+$z[4][4]=array();
+$z[4][4]['typeid']="14";
+$z[5]=Array("global","",950,973);
+$z[5][4]=array();
+$z[5][4]['name']="cfg_gsmc";
+$z[6]=Array("global","",1005,1029);
+$z[6][4]=array();
+$z[6][4]['name']="cfg_email";
+$z[7]=Array("global","",1056,1080);
+$z[7][4]=array();
+$z[7][4]['name']="cfg_phone";
+$z[8]=Array("global","",1107,1129);
+$z[8][4]=array();
+$z[8][4]['name']="cfg_tel";
+$z[9]=Array("global","",1156,1178);
+$z[9][4]=array();
+$z[9][4]['name']="cfg_add";
+$z[10]=Array("arclist","\r\n		<li><a href=\"[field:arcurl/]\" title=\"[field:title/]\">\r\n          <div class=\"pic\"><img src=\"[field:litpic/]\" alt=\"[field:title/]\"></div>\r\n          <p >[field:title/]</p>\r\n          </a></li>\r\n		  ",1335,1615);
+$z[10][4]=array();
+$z[10][4]['typeid']="";
+$z[10][4]['row']="9";
+$z[10][4]['titlelen']="50";
+$z[10][4]['orderby']="pubdate";
+
+?>

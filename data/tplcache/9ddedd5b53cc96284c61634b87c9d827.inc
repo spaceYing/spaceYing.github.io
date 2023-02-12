@@ -1,0 +1,1 @@
+<li><a class="img" title="[field:title/]"><img border="0" src="[field:litpic/]" title="[field:title/]" alt="[field:title/]"></a></li>

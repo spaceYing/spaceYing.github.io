@@ -1,0 +1,1 @@
+<a class="more fr" href="[field:typelink /]" title="查看更多">查看更多 &gt;&gt;</a>
